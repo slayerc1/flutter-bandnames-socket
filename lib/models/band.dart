@@ -1,9 +1,9 @@
 class Band {
   String id;
   String name;
-  int? votes;
+  int votes;
 
-  Band({required this.id, required this.name, this.votes});
+  Band({required this.id, required this.name, required this.votes});
 
   factory Band.fromMap(Map<String, dynamic> obj) =>
       Band(
